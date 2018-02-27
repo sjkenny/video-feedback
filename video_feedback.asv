@@ -9,12 +9,12 @@ disp=1;             % 1 to display output in real time, 0 to omit
 write_video=1;      % 1 to write output video
 exponent = 1.5;     % sharpening factor to avoid blurring
 a=0.2;              % for blurring filter; higher value = more blur
-theta = 17;         % rotation for each iteration - very important for good feedback
+theta = 91;         % rotation for each iteration - very important for good feedback
 zoom_scale = 1.00;  % zoom for each iteration
 thresh_high=0.9;    % threshold for output display
 thresh_low = 0;
-p_size = 1;         % not sure what this was for
-thickness = 5;      % parameter for initial image generation
+p_size = 1;
+thickness = 5;
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 im_init = zeros(imgsize);
